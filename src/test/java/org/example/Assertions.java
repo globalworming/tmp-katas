@@ -1,10 +1,8 @@
 package org.example;
 
-import org.junit.jupiter.api.DisplayNameGeneration;
 
 import java.util.Objects;
 
-@DisplayNameGeneration()
 public class Assertions {
     public static void assertEquals(int actual, int expected) {
         if (actual != expected) {
